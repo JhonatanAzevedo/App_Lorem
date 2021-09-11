@@ -66,6 +66,7 @@ class LoginPage extends StatelessWidget {
                     SizedBox(
                       height: height * 5,
                       child: TextField(
+                        obscureText: true,
                         decoration: InputDecoration(
                           border: OutlineInputBorder(
                               borderRadius:
